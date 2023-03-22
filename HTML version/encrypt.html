@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT-Krypt</title>
+    <script src="src/js.js" defer></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div id="all21"><div class="otsikko"><h1>AT-Krypt</h1></div>
+    <form action="javascript:void(0)" class="ok"> <label for="counts">Crypt Level</label>
+    <select id="count" class="ok" size="1" name="counts"> 
+            <option value="1">1</option><option value="2">2</option>
+            <option value="3">3</option><option value="4">4</option>
+            <option value="5">5!</option><option value="6">6!!</option>
+            <option value="7">7!!!</option><option value="8">8!!!!</option>
+            <option value="9">9!!!!!</option>
+    </select>
+    </form><br>
+    <input type="text" placeholder="Encrypt" id="teksti1"> <br><br>
+    <button type="submit" onclick="move(true)">Encrypt</button> <button type="button" onclick="clearTXTfield(true);">Clear encrypt input-area</button><br><br> 
+    <div id="myProgress1"><div id="myBar1"></div></div>
+    <textarea placeholder="Your encrypted text will appear here" id="encryptTextPad" cols="30" rows="10"></textarea><br><br>
+    <button type="button" onclick="copy(true);">Copy to clipboard</button><span id="lengthEncry"></span><br><br>
+    <input type="text" placeholder="Decrypt" id="teksti2"><br><br>
+    <button type="submit" onclick="move(false)">Decrypt</button> <button type="button" onclick="clearTXTfield(false);">Clear decrypt input-area</button><br><br>
+    <div id="myProgress2"><div id="myBar2"></div></div>
+    <textarea placeholder="Your decrypted text will appear here" id="decryptTextPad" cols="30" rows="10"></textarea><br><br>
+    <button type="button" onclick="copy(false)">Copy to clipboard</button></div>
+    <footer id="footer"><p>AT-Krypt Technologies. All rights reserved ©</p></footer>
+</body>
+</html>
