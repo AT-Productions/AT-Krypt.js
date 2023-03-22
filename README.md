@@ -13,5 +13,5 @@
 <script type="module" src="index.js"></script>
 
 index.js:
-import { atKrypt, atDekrypt } from '';
+import { atKrypt, atDekrypt } from 'https://cdn.jsdelivr.net/gh/Antonako1/AT-Krypts.js@main/AT-Krypt.js';
 ```
