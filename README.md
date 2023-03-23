@@ -3,7 +3,7 @@
 ###
 ## Different tags, how syntax works
 ###
-### atKrypt(input, level) // Crypt levels: 1, 2, 3, 4, 5, 6, 7, 8, 9.
+### atKrypt(input, level)
 ### 
 ###
 ### atDekrypt(CryptedText)
