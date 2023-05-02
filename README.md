@@ -1,7 +1,7 @@
 # AT-Krypt.js
 ###
 ### atKrypt(input, level)
-### 
+### levels: 1-9
 ###
 ### atDekrypt(CryptedText)
 ###
