@@ -1,8 +1,5 @@
 # AT-Krypt.js
 ###
-###
-## Different tags, how syntax works
-###
 ### atKrypt(input, level)
 ### 
 ###
