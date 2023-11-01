@@ -9,7 +9,7 @@ node atkryptcmd.js help
 Crypt:
 
 ```
-node atkryptcmd.js crypt level string
+node atkryptcmd.js krypt level string
 ```
 
 ---
@@ -17,5 +17,5 @@ node atkryptcmd.js crypt level string
 Decrypt:
 
 ```
-node atkryptcmd.js decrypt 'string'
+node atkryptcmd.js dekrypt 'string'
 ```
