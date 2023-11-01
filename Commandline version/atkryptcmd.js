@@ -89,7 +89,6 @@ process.argv.forEach(function (val, index, array) {
             console.log("")
             console.log("Results:")
             let txt = val;
-            console.log(txt)
             console.log(atDekrypt(txt))
             console.log("")
         }
